@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
 const ImageUploader = ({ onAnalysisComplete }) => {
   const [file, setFile] = useState(null);
@@ -27,7 +28,7 @@ const ImageUploader = ({ onAnalysisComplete }) => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch(`${API_BASE_URL}/api/predict`, {
         method: "POST",
         body: formData,
       });

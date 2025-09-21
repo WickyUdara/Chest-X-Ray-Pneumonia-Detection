@@ -61,7 +61,7 @@ def preprocess_image(image_bytes: bytes):
         logger.error(f"Error preprocessing image: {e}")
         raise HTTPException(status_code=400, detail="Invalid image file")
 
-@app.post("/predict")
+@app.post("/api/predict")
 async def predict(file: UploadFile = File(...)):
     if model is None:
         raise HTTPException(status_code=503, detail="Model is not loaded")
