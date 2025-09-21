@@ -28,7 +28,7 @@ const ImageUploader = ({ onAnalysisComplete }) => {
     formData.append("file", file);
 
     try {
-      const response = await fetch(`${API_BASE_URL}/api/predict`, {
+      const response = await fetch(`${API_BASE_URL}/predict`, {
         method: "POST",
         body: formData,
       });

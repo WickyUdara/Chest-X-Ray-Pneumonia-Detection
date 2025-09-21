@@ -62,7 +62,7 @@ const Upload = ({ setAnalysisResult, isAnalyzing, setIsAnalyzing }) => {
       const formData = new FormData();
       formData.append('file', selectedFile);
 
-      const response = await fetch(`${API_BASE_URL}/api/predict`, {
+      const response = await fetch(`${API_BASE_URL}/predict`, {
         method: 'POST',
         body: formData,
       });

@@ -61,7 +61,7 @@ def preprocess_image(image_bytes: bytes):
         logger.error(f"Error preprocessing image: {e}")
         raise HTTPException(status_code=400, detail="Invalid image file")
 
-@app.post("/api/predict")
+@app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     if model is None:
         raise HTTPException(status_code=503, detail="Model is not loaded")
@@ -108,6 +108,3 @@ async def predict(file: UploadFile = File(...)):
     except Exception as e:
         logger.error(f"Error making prediction: {e}")
         raise HTTPException(status_code=500, detail=f"Error making prediction: {e}")
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
