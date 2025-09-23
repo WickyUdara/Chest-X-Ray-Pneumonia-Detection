@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL;
 
 const Upload = ({ setAnalysisResult, isAnalyzing, setIsAnalyzing }) => {
   const [selectedFile, setSelectedFile] = useState(null);
