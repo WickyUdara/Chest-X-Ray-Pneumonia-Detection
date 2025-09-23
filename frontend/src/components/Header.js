@@ -14,7 +14,7 @@ const Header = () => {
                 <path fillRule="evenodd" d="M10 2L3 7v11a1 1 0 001 1h3v-8a1 1 0 011-1h4a1 1 0 011 1v8h3a1 1 0 001-1V7l-7-5z" clipRule="evenodd" />
               </svg>
             </div>
-            <span className="text-xl font-bold text-gray-800">ChestXRay AI</span>
+            <span className="text-xl font-bold text-gray-800">AI Pneumonia X-ray Analyzer</span>
           </div>
 
           {/* Desktop Navigation */}

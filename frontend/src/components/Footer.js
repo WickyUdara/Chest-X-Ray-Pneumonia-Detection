@@ -24,7 +24,7 @@ const Footer = () => {
                   ></path>
                 </svg>
               </div>
-              <span className="text-2xl font-bold">ChestXRay AI</span>
+              <span className="text-2xl font-bold">AI Pneumonia X-ray Analyzer</span>
             </div>
             <p className="text-gray-400 text-sm">
               AI-powered medical imaging analysis to assist healthcare
@@ -69,7 +69,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} ChestXRay AI Analyzer. All rights
+            © {new Date().getFullYear()} AI Pneumonia X-ray Analyzer. All rights
             reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
