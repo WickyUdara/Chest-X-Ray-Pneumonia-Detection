@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![ChestXRay AI Banner](https://via.placeholder.com/800x200/1e40af/ffffff?text=ChestXRay+AI+Analyzer)
+
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
