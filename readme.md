@@ -1,4 +1,4 @@
-# ChestXRay AI Analyzer - Pneumonia Detection API
+# ChestXRay AI Analyzer - Pneumonia Detection System
 
 <div align="center">
 
@@ -18,7 +18,7 @@
 
 ## 🎯 Overview
 
-ChestXRay AI Analyzer is a **production-ready FastAPI backend** that provides AI-powered pneumonia detection from chest X-ray images. Built with a custom Convolutional Neural Network (CNN), this system offers fast, accurate, and reliable pneumonia screening to assist healthcare professionals in clinical decision-making.
+ChestXRay AI Analyzer is a **production-ready System** that provides AI-powered pneumonia detection from chest X-ray images. Built with a custom Convolutional Neural Network (CNN), this system offers fast, accurate, and reliable pneumonia screening to assist healthcare professionals in clinical decision-making.
 
 ### Key Features
 
