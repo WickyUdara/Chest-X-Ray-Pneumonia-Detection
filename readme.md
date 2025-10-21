@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![ChestXRay AI Banner](https://via.placeholder.com/800x200/1e40af/ffffff?text=ChestXRay+AI+Analyzer)
+![ChestXRay AI Banner](docs/images/banner.png)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
@@ -175,13 +175,13 @@ print(r.json())
 ## 🖼️ Screenshots
 
 ### Main Dashboard
-![Dashboard](docs/images/dashboard.png)
+![Dashboard](docs/images/Home.png)
 
 ### Upload & Prediction
-![Upload Demo](docs/images/upload_demo.png)
+![Upload Demo](docs/images/upload.png)
 
 ### AI Results
-![Results](docs/images/results_demo.png)
+![Results](docs/images/report.png)
 
 ---
 
