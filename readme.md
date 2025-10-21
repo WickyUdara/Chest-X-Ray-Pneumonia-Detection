@@ -12,7 +12,7 @@
 
 **AI-Powered Pneumonia Detection from Chest X-Ray Images**
 
-[🚀 Live Demo](#live-demo) • [📖 Documentation](#api-documentation) • [🔧 Installation](#installation) • [📊 Dataset](#dataset)
+[🚀 Live Demo](https://wickyudara-ai-pneumonia-detector.hf.space/) • [📖 Documentation](https://github.com/WickyUdara/Chest-X-Ray-Pneumonia-Detection/blob/main/readme.md)  • [📊 Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 </div>
 
@@ -302,29 +302,38 @@ const analyzeImage = async (file) => {
 ## 🏗️ Project Structure
 
 ```
-chestxray-pneumonia-backend/
-├── app/
-│   ├── __init__.py
-│   ├── main.py              # FastAPI application
-│   └── models/
-│       ├── __init__.py
-│       └── model_utils.py   # Model utilities
-├── models/
-│   └── pneumonia_model.h5   # Trained CNN model
-├── tests/
-│   ├── __init__.py
-│   ├── test_main.py
-│   └── sample_images/
-├── docs/
-│   ├── api_documentation.md
-│   └── model_training.md
-├── requirements.txt         # Python dependencies
-├── Dockerfile              # Docker configuration
-├── docker-compose.yml      # Docker Compose setup
-├── .env.example           # Environment variables template
+Chest-X-Ray-Pneumonia-Detection/
+├── backend/
+│   ├── app/
+│   │   └── main.py              # FastAPI application logic
+│   ├── models/
+│   │   └── pneumonia_model.h5   # Trained CNN model
+│   ├── venv/                    # Virtual environment
+│   └── requirements.txt         # Python dependencies
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html           # Main HTML file
+│   ├── src/
+│   │   ├── components/          # React components
+│   │   │   ├── About.js
+│   │   │   ├── Footer.js
+│   │   │   ├── Header.js
+│   │   │   ├── Hero.js
+│   │   │   ├── ImageUploader.js
+│   │   │   ├── Results.js
+│   │   │   └── ThemeToggler.js
+│   │   ├── context/
+│   │   │   └── ThemeContext.js  # Theme management
+│   │   ├── App.js               # Main application component
+│   │   ├── index.css            # Global styles and Tailwind directives
+│   │   └── index.js             # Application entry point
+│   ├── package.json             # Frontend dependencies
+│   ├── tailwind.config.js       # Tailwind CSS configuration
+│   └── postcss.config.js        # PostCSS configuration
+│
 ├── .gitignore
-├── LICENSE
-└── README.md              # This file
+└── README.md                    # This file
 ```
 
 ---
